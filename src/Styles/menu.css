@@ -27,15 +27,14 @@
   color: black;
   padding: 10px;
   letter-spacing: 1px;
+  margin-top: 10px;
 }
 .menu img {
   cursor: pointer;
   position: relative;
-  left: 55%;
   bottom: 5px;
-  font-size: 20px;
   border-radius: 50%;
-  padding: 5px;
+  margin-top: 10px;
   border: 1px solid #ff8800;
   background-color: #FFF8F2;
 }
@@ -109,7 +108,7 @@
 /* Media query for small mobile devices */
 @media (max-width: 480px) {
   .team-card {
-    width: calc(50% - 60px);
+    width: calc(50% - 25px);
     height: 150px; /* 1 card per row */
   }
   .headline {

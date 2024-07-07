@@ -122,7 +122,7 @@ const SoupVeg = () => {
           </p>
         </div>
       </div>
-
+<hr />
       <div className='d-flex justify-content-center'>
         <button className='col-11 addtocart' onClick={handleAddToCart}>Add to cart</button>
       </div>

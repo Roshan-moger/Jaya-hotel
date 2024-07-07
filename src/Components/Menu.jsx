@@ -1,10 +1,13 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import 'remixicon/fonts/remixicon.css';
 import '../Styles/menu.css';
 import { useNavigate } from 'react-router-dom';
+import { CartContext } from './CartContext';
 
 const Menu = () => {
   const navigate = useNavigate();
+  const { isCartEmpty } = useContext(CartContext);
+
   return (
     <div className="container-fluid">
       <div className="heading">
@@ -13,7 +16,11 @@ const Menu = () => {
         <p className="working"><i className="ri-time-line"></i> 08:00 am - <i className="ri-time-line"></i> 12:00 pm</p>
       </div>
       <div>
-        <h3 className="menu">MENU CARD <img src="shopping_cart.svg" alt=""  onClick={()=>navigate('/cart')}/></h3> 
+        <h3 className="menu">MENU CARD  <img 
+            src={isCartEmpty ? "shopping_cart.svg" : "after_add_cart.svg"} 
+            alt="Cart" 
+            onClick={() => navigate("/cart")}
+          /></h3> 
       </div>
       <div className="d-flex justify-content-around flex-wrap">
         <div className="team-card" onClick={()=>navigate("/beverages")}>
