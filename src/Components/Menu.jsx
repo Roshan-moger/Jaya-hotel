@@ -9,7 +9,7 @@ const Menu = () => {
   const { isCartEmpty } = useContext(CartContext);
 
   return (
-    <div className="container-fluid">
+    <div className="">
       <div className="heading">
         <h1 className="headline mb-3">Jaya Paradise</h1>
         <p className='m-1 working'>Working Time</p>

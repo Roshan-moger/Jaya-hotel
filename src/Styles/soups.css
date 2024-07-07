@@ -65,9 +65,8 @@ span{
 .description{
     padding-left: 25px;
 }
-.money i{
-    color: green;
-    font-size: 22px;
+.money img{
+   width: 10px;
 }
 .money ,.quantity{
     color: black;

@@ -45,7 +45,7 @@ const SoupNonVeg = () => {
         </div>
         <div className='col-8 description'> 
           <h6>Chicken Clear Soup</h6>
-          <p className='money'><i className="ri-money-rupee-circle-line"></i>110</p>
+          <p className='money'><img src="currency_rupee.svg" alt="" />110</p>
           <p className="quantity">
             <i className="ri-subtract-line" onClick={() => handleQuantityChange('chickenClearSoup', 'decrease')}></i> 
             {quantities.chickenClearSoup} 
