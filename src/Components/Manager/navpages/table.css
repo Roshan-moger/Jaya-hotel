@@ -80,25 +80,29 @@
 .d-flex {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
 }
 
 .table-card {
- width: 200px;
-
+  width: 200px;
+  height: 140px;
   display: flex;
   flex-direction: column;
-text-align: center;
-background-color: rgb(220, 217, 217);
+  text-align: center;
+  background-color: rgb(232, 228, 228);
   border: 1px solid #c5c3c3;
-  border-radius: 4px;
-  margin: 5px;
+  border-radius: 10px;
+  margin: 8px;
   padding: 10px;
   position: relative;
   cursor: pointer;
   color: black;
+  margin-bottom: 25px;
   transition: background-color 0.3s;
   text-decoration: none;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
 }
 
 .table-card.has-order {
