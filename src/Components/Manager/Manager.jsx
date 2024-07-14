@@ -14,7 +14,7 @@ const Manager = () => {
       <div className="content">
         <Routes>
           {/* <Route path="/" element={<Home />} /> */}
-          <Route path="room" element={<Room />} />
+          <Route path="/menu" element={<Room />} />
           <Route path="/" element={<Tables />} />
         </Routes>
       </div>

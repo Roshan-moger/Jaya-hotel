@@ -41,7 +41,7 @@ const SoupNonVeg = () => {
     <>
       <div className='d-flex justify-content-center'>
         <div>
-          <img src="Assets/nonvegSoup/13paya-soup.jpg" className='soupimg' alt="Chicken Clear Soup" />
+          <img src="Assets/nonvegSoup/Chicken Clear Soup.svg" className='soupimg' alt="Chicken Clear Soup" />
         </div>
         <div className='col-8 description'> 
           <h6>Chicken Clear Soup</h6>
@@ -57,7 +57,7 @@ const SoupNonVeg = () => {
 
       <div className='d-flex justify-content-center'>
         <div>
-          <img src="Assets/nonvegSoup/manchow-chicken-soup.jpg" className='soupimg' alt="Chicken Manchow Soup" />
+          <img src="Assets/nonvegSoup/Chicken Manchurian Soup.svg" className='soupimg' alt="Chicken Manchow Soup" />
         </div>
         <div className='col-8 description'> 
           <h6>Chicken Manchow Soup</h6>
@@ -73,7 +73,7 @@ const SoupNonVeg = () => {
 
       <div className='d-flex justify-content-center'>
         <div>
-          <img src="Assets/nonvegSoup/Nattu-Kozhi-soup.jpg" className='soupimg' alt="Hot & Sour Chicken Soup" />
+          <img src="Assets/nonvegSoup/Hot & Sour Chicken Soup.svg" className='soupimg' alt="Hot & Sour Chicken Soup" />
         </div>
         <div className='col-8 description'> 
           <h6>Hot & Sour Chicken Soup</h6>
@@ -89,7 +89,7 @@ const SoupNonVeg = () => {
 
       <div className='d-flex justify-content-center'>
         <div>
-          <img src="Assets/nonvegSoup/oesoh3gddiedh_bigger.jpg" className='soupimg' alt="Chicken Hot & Sour Soup" />
+          <img src="Assets/nonvegSoup/Chicken Hot & Sour Soup.svg" className='soupimg' alt="Chicken Hot & Sour Soup" />
         </div>
         <div className='col-8 description'> 
           <h6>Chicken Hot & Sour Soup</h6>
