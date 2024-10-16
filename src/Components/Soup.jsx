@@ -18,7 +18,7 @@ const Soup = () => {
     <div>
       <h3>
         <p className='icon'>
-          <i className="ri-arrow-left-wide-line" onClick={() => navigate("/menu")}></i>
+          <i className="ri-arrow-left-wide-line" onClick={() => navigate(-1)}></i>
         </p>
         Soups 
         <span>

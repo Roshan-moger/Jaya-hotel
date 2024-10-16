@@ -112,7 +112,7 @@ const Cart = () => {
     <>
       <div className='cart-container cart'>
         <h3>
-          <p className='icon'><i className="ri-arrow-left-wide-line" onClick={() => navigate("/soup")}></i></p>
+          <p className='icon'><i className="ri-arrow-left-wide-line" onClick={() => navigate(-1)}></i></p>
           CheckOut
         </h3>
         <hr />
