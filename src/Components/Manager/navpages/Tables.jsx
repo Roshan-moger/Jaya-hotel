@@ -16,7 +16,7 @@ const Tables = () => {
 
   return (
     <>
-      <h1>Jaya Paradise</h1>
+      <h1>Hotel name</h1>
       <h3>Table Number</h3>
       <div className="d-flex flex-wrap">
         {arr.map((item, index) => (

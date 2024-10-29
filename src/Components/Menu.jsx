@@ -11,7 +11,7 @@ const Menu = () => {
   return (
     <div className="">
       <div className="heading">
-        <h1 className="headline mb-3">Jaya Paradise</h1>
+        <h1 className="headline mb-3">Hotel name</h1>
         <p className='m-1 working'>Working Time</p>
         <p className="working"><i className="ri-time-line"></i> 08:00 am - <i className="ri-time-line"></i> 12:00 pm</p>
       </div>
