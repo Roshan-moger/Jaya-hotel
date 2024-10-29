@@ -36,7 +36,7 @@ const Menu = () => {
             <img src="Jaya Special.svg" alt="Ice Cream"/>
           </div>
           <div className="team-detail">
-            <h3>Jaya Specials</h3>
+            <h3> Special Meals</h3>
           </div>
         </div>
         <div className="team-card"onClick={()=>navigate("/soup")} >
